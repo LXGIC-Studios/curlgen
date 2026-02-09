@@ -1,0 +1,43 @@
+{
+  "name": "@lxgicstudios/curlgen",
+  "version": "1.0.0",
+  "description": "Convert between cURL commands and JavaScript fetch/axios code. Supports Postman collection import. CLI tool for API developers.",
+  "main": "dist/index.js",
+  "bin": {
+    "curlgen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "curl",
+    "fetch",
+    "axios",
+    "converter",
+    "postman",
+    "api",
+    "http",
+    "request",
+    "cli",
+    "code-generator",
+    "curl-to-fetch",
+    "curl-to-axios"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/curlgen"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
